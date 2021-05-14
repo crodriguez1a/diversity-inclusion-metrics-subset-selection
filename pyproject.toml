@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "diversity-inclusion-metrics-subset-selection"
+version = "0.1.0"
+description = "Diversity and Inclusion Metrics in Subset Selection (Python)"
+authors = ["Carlos Rodriguez <crodriguez1a@gmail.com>"]
+license = "GNU"
+
+[tool.poetry.dependencies]
+python = ">=3.7,<3.10"
+numpy = "^1.20.3"
+scipy = "^1.6.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.4"
+black = "^21.5b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
